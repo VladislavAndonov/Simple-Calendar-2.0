@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="calendar-header">
+
+
+            <i class="fa-solid fa-angle-left prev" onclick=showPrevMonth()></i>
+            <p class="current-date"></p>
+            <i class="fa-solid fa-angle-right next" onclick=showNextMonth()></i>
+        </div>
+
+        <div class="calendar-body">
+
+            <ul class="weekdays">
+                <li>Mon</li>
+                <li>Tue</li>
+                <li>Wed</li>
+                <li>Thu</li>
+                <li>Fri</li>
+                <li>Sat</li>
+                <li>Sun</li>
+            </ul>
+
+            <ul class="dates"></ul>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/2672ae53d6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
